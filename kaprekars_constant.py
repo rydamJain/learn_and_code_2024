@@ -1,7 +1,7 @@
 def kaprekar_routine(starting_number):
     iteration_count = 0
     
-    while iteration_count < 7:
+    while iteration_count < 8:
         if starting_number == 6174:
             print("Kaprekar's routine reached 6174!")
             print("Number of iterations:", iteration_count)
